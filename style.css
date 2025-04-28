@@ -1,0 +1,27 @@
+.hero-gradient {
+    background: linear-gradient(135deg, rgba(30,58,138,0.9) 0%, rgba(76,81,191,0.9) 100%);
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.form-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+.nav-link {
+    position: relative;
+}
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #4f46e5;
+    transition: width 0.3s ease;
+}
+.nav-link:hover:after {
+    width: 100%;
+}
